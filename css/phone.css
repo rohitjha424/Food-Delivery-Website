@@ -1,0 +1,51 @@
+body {
+  background-color: red;
+}
+
+/* Navigation */
+#navbar {
+  flex-direction: column;
+}
+
+/* Home Section */
+
+#home {
+    height: 300px;
+
+}
+#home::before {
+    height: 480px;
+
+}
+#home p{
+    font-size: 12px;
+}
+
+/* Services  Section */
+#services {
+  flex-direction: column;
+}
+
+#services .box {
+}
+
+/* Client Section */
+#clients {
+  overflow: hidden;
+}
+
+/* Contact Section */
+
+/* Footer */
+
+/* Utiliy Classes */
+.h-primary {
+    font-size: 26px;
+    /* padding: 12px;
+    font-family: Arial, Helvetica, sans-serif; */
+  }
+  /* .h-secondary {
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: "Bree Serif", serif;
+  } */
